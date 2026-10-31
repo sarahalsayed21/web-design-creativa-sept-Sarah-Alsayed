@@ -1,0 +1,73 @@
+*{
+   margin: 0%; 
+   padding: 0%; 
+   box-sizing: border-box;
+}
+
+
+
+.card{
+   
+   border:  0.5px solid rgb(165, 163, 163); 
+   border-radius: 5%;
+ width: 30%; 
+ margin: auto; 
+ margin-top: 2%;
+
+} 
+.pro-plan{ 
+    background-color: rgb(24, 23, 126); 
+    text-align: center; 
+    padding: 9%; 
+     border-radius: 10px; 
+     color: rgb(219, 216, 216); 
+     line-height: 2;
+} 
+h1{
+   font-weight: bold; 
+   color: white; 
+   font-size: 30px;
+}
+.p1{
+border: 5px; 
+padding: 7%; 
+text-align: center; 
+border:  0.5px solid rgb(150, 147, 147); 
+} 
+.p2{
+border: 5px; 
+padding: 7%; 
+text-align: center; 
+border:  0.5px solid rgb(150, 147, 147); 
+}
+.p3{ 
+border: 5px; 
+padding: 7%; 
+text-align: center; 
+border:  0.5px solid rgb(150, 147, 147); 
+} 
+/* .button{
+   
+padding: 4%; 
+text-align: center; 
+background-color: rgb(255, 234, 9); 
+width : 50% ; 
+margin:auto; 
+border-radius: 10px ; */
+
+/* } */ 
+button{
+   padding: 4% 6%; 
+   text-align: center; 
+   background-color: rgb(255, 234, 9); 
+   width : 40% ; 
+   border-radius: 20px; 
+   font-size: 20px;  
+ /* margin:auto;  دي مشتغلتش عشان الزرار inline يعني مش مسموحله ياخد المسلحه كلها فا لو هعمله بالمارجين لازم اعمله ديسبلاي بلوك اني بقوله الزرار هياخرد السطر كله ; */ ;
+ } 
+
+.last-div{ 
+   text-align: center;
+   padding: 5%;
+
+}

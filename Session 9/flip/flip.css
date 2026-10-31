@@ -1,0 +1,142 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}  
+
+.container{
+    width: 80%; 
+    margin: auto;
+}
+.flipcard{ 
+    width: 400px; 
+    height: 600px;
+ position: relative; 
+ margin: 3% auto;  
+ perspective: 600px;
+ 
+} 
+
+.innercard{ 
+       width: 100%;
+       height: 100%; 
+       transition: 3s;
+      transform-style: preserve-3d;
+    
+
+ 
+}  
+/* .innercard:hover{
+    transform:rotateY(180deg);
+/* }                         why to put it in first place ????????? / */
+
+.back , .front{
+  position: absolute; 
+  width: 100%; 
+  height: 100%;  
+  border-radius: 30px;     
+  padding: 7% 5%;  
+  
+}
+  
+.front{
+background-image: url(imgs/نصف\ المسرّة\ بيومك\ بدايته\ ب\ كاسة\ شاي_.jpg);  
+background-size: cover; 
+/*  عشان الصوره كلها تظهر من غير ما تتقص   */
+
+background-position: center; 
+background-repeat: no-repeat;
+display: flex;  
+align-items: flex-end;  
+ 
+backface-visibility: hidden;
+  
+
+} 
+
+
+.back{
+ background-color: rgb(54, 24, 24); 
+ transform: rotateY(180deg);
+  backface-visibility: hidden; 
+  display: flex; 
+  flex-direction: column;
+  /* align-items: center;  دي بتجيب كل عنصر في النص  */
+  /* justify-content: center;  /* مسافه فوق وتحت vertical */ 
+  padding-left: 10%;
+
+
+} 
+.circle{
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}  
+.circlefront{
+    margin-left: 10%; 
+    border: 3px solid maroon; 
+}
+h2{
+    
+    color: bisque;  
+    width: 300px; 
+    
+
+}  
+ .flipcard:hover h2{
+     animation: title1 0.5s ease  1  ;
+ }
+.icon{
+    color: bisque; 
+    text-align: center; 
+    font-size: 25px;
+   
+}  
+p{
+    color: rgb(255, 241, 225); 
+    margin-top: 2%; 
+    font-size: 15px; 
+    width: 300px;
+}
+.flipcard:hover .innercard{
+    transform: rotateY(180deg); 
+    
+} 
+@keyframes title1 {
+    from{
+
+    } 
+  to{
+    transform: translateY(-60px);
+  }
+} 
+.icon-back{
+    font-size: 100px; 
+    margin-top: 30%;  
+    color: rgb(233, 198, 156);
+} 
+.backreadmore{
+    display: flex;
+
+     align-items: end;  
+     justify-self: end; 
+     height: 300px; 
+    /* padding-left: 50%;  why its not working???????? */
+    
+} 
+.circleback{
+border: 3px solid bisque;  
+
+}  
+.circleback:hover{
+    background-color: bisque; 
+    /* color: maroon ;    why its not working???????????
+     */
+} 
+.circleback:hover .icon{
+    color: maroon ; 
+} 

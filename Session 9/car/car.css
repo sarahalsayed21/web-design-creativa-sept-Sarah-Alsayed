@@ -1,0 +1,33 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+} 
+.sec{
+    background-color: black;
+    /* background-image: url(imgs/—Pngtree—black\ winding\ road\ road\ city_5546467.png);  */
+    /* height: 1000px; */ 
+     position: relative; 
+}  
+.street{
+    width: 100%; 
+   
+}
+
+.car{
+position: absolute; 
+width: 20%;  
+top:44% ; 
+right: 0%;
+animation: car 3s linear  infinite ;
+} 
+@keyframes car {
+    100%{
+        /* transform:translateX(-10000px); */
+        right: 100%;
+
+    }
+} 
+    
+    
+

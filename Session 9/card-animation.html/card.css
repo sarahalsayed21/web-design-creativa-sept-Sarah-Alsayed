@@ -1,0 +1,46 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}  
+.BG{
+background-image: linear-gradient(rgb(82, 82, 236),rgb(146, 98, 155)); 
+width: 100%; 
+padding: 10%;
+
+} 
+.profile{
+    width: 70px; 
+    height: 70px; 
+    margin: auto; 
+    border: 1px solid transparent; 
+    border-radius: 50%; 
+    background-image: linear-gradient(rgb(82, 82, 236),rgb(146, 98, 155)); 
+
+}  
+.card{
+    width: 30%;  
+    border-radius: 20px; 
+    background-color: aliceblue; 
+    border: 2px solid blueviolet; 
+    margin:  auto; 
+    padding: 5%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 5px;
+} 
+img{
+    width: 60px; 
+    height: 70px; 
+    padding-left: 10%; 
+    padding-top: 5%; 
+    border-radius: 50%;
+} 
+button{
+    background-color: blue; 
+    border: 1px solid blue ; 
+    border-radius: 10px; 
+    padding: 3% 7%;
+}

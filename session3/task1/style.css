@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0%; 
+    box-sizing: border-box;
+}
+.intro{
+ background-color:rgb(128, 128, 218) ;
+text-align: center; 
+padding: 1%;
+}
+.section{
+    background-color: rgb(215, 234, 234); 
+    /* margin-bottom: 5%;  */
+   padding-top: 5%;
+}
+
+/* h2{ text-align: center ;
+padding-bottom: 2%;}  */
+
+.part1{
+    background-color: aliceblue;
+    padding: 5%; 
+    width: 60%;
+    margin: auto; 
+    margin-bottom: 5%;
+    text-align: center;
+   
+
+    
+}
+.part2{
+    background-color: rgb(248, 233, 215);
+    padding: 5%; 
+    width: 60%; 
+     margin: auto;
+} 
+.bg-dark{
+    background-color: rgb(16, 11, 43);
+    color: white; 
+    text-align: center; 
+    padding: 2%; 
+    font-size: 18px;
+}
